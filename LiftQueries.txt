@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class LiftQueriesDemo {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter the number of test cases:");
+        int n = scanner.nextInt();
+        lift(n, scanner);
+       
+    }
+
+    public static void lift(int n, Scanner scanner) {
+        int a = 1, b = 7, call;
+        while (n != 0) {
+            System.out.println("Enter the test case:");
+            call = scanner.nextInt();
+            if (Math.abs(call - a) <= Math.abs(call - b)) {
+                System.out.println("A");
+                a = call;
+            } else {
+                System.out.println("B");
+                b = call;
+            }
+            n--;
+        }
+    }
+}
+
