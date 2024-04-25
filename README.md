@@ -18,22 +18,30 @@ Next T lines contains a single integer N denoting the floor from which lift is c
 Output
 Output T lines  containing one Character "A" if the first lift goes to N th floor or "B" for the second lift.
 
-Sample Input 1                       
+Sample Input 1  
+
 2
-3                                    
+
+3  
+
 5   
 
 Sample Output 1
 
 A
+
 A
 
-Sample Input 2                     
+Sample Input 2  
+
 2
-7                                     
+
+7   
+
 2  
 
 Sample Output 2
 
 B
+
 A
